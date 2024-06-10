@@ -121,7 +121,7 @@
             "buttons": [
                 {
                     "label": "How to setup",
-                    "response": "Counter's are setup on our [dashboard](https://arcane.bot/dashboard) -> your server -> Counters"
+                    "response": "Counter's are setup on our [dashboard](<https://arcane.bot/dashboard>) -> your server -> Counters"
                 },
                 {
                     "label": "Incorrect stats",
@@ -129,7 +129,7 @@
                 },
                 {
                     "label": "Counter updates",
-                    "response": "Counters update every 15 to 30 minutes. Make sure that Arcane has the **Manage channels** permission or it wont be able to update the channels\n\nUpdates include:\n-Counts going up\nCounts going down\nCounter names being changed on the dashboard"
+                    "response": "Counters update every 15 to 30 minutes. Make sure that Arcane has the **Manage channels** permission or it wont be able to update the channels\n\nUpdates include:\n- Counts going up\n- Counts going down\n- Counter names being changed on the dashboard"
                 },
                 {
                     "label": "Deleting a counter",
@@ -137,7 +137,7 @@
                 },
                 {
                     "label": "Variables",
-                    "response": "Depending on the counter type you may have access to some variables to use in the counter name.\n\n**Counters:**\n- `{count}`: the count of the entity when the counter is updated\n\nGoal counters:\n- `{}`: the count of the entity when the counter is updated\n- `{goal}`: the current goal. This can go up or down automatically"
+                    "response": "Depending on the counter type you may have access to some variables to use in the counter name.\n\n**Counters:**\n- `{count}`: the count of the entity when the counter is updated\n\nGoal counters:\n- `{count}`: the count of the entity when the counter is updated\n- `{goal}`: the current goal. This can go up or down automatically"
                 }
             ]
         },
