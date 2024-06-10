@@ -136,10 +136,6 @@
                     "response": "You can delete a counter on the dashboard or by deleting the channel in your Discord server. Please note that if you delete the counter on the dashboard you will need to delete the channel yourself."
                 },
                 {
-                    "label": "Counter limits",
-                    "response": "Normal servers can create up to 5 counters. Premium servers can create an unlimited amount of counters. Some counters are more resource intensive and require premium."
-                },
-                {
                     "label": "Variables",
                     "response": "Depending on the counter type you may have access to some variables to use in the counter name.\n\n**Counters:**\n- `{count}`: the count of the entity when the counter is updated\n\nGoal counters:\n- `{}`: the count of the entity when the counter is updated\n- `{goal}`: the current goal. This can go up or down automatically"
                 }
