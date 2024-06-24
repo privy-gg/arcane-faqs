@@ -120,7 +120,7 @@
             "overview": "**__Counters help__**",
             "buttons": [
                 {
-                    "label": "How to setup",
+                    "label": "Counter setup",
                     "response": "Counter's are setup on our [dashboard](<https://arcane.bot/dashboard>) -> your server -> Counters"
                 },
                 {
@@ -136,7 +136,7 @@
                     "response": "You can delete a counter on the dashboard or by deleting the channel in your Discord server. Please note that if you delete the counter on the dashboard you will need to delete the channel yourself."
                 },
                 {
-                    "label": "Variables",
+                    "label": "Counter Variables",
                     "response": "Depending on the counter type you may have access to some variables to use in the counter name.\n\n**Counters:**\n- `{count}`: the count of the entity when the counter is updated\n\nGoal counters:\n- `{count}`: the count of the entity when the counter is updated\n- `{goal}`: the current goal. This can go up or down automatically"
                 }
             ]
