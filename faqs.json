@@ -5,141 +5,24 @@
             "emote": {
                 "name": "⚙️"
             },
-            "overview": "**__Dashboard help__**",
-            "buttons": [
-                {
-                    "label": "Change Prefix",
-                    "response": "Arcane has migrated to slash commands and such changing the prefix is no longer possible. Please use slash commands by typing `/` in any channel and selecting Arcanes commands.\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929696101643214888/unknown.png"
-                },
-                {
-                    "label": "No Servers",
-                    "response": "If no servers are detected in your dashboard, you may not have any servers in which you have the `Manage Server` permission in. Server Owners bypass this check.\n\n**But I own servers/have the permissions?**\nTry pressing refresh list or logging out and in again, it should fix your issue!"
-                },
-                {
-                    "label": "Save Settings",
-                    "response": "Some pages have automatic saving and some pages require you to explicitly save the settings. If the current page requires you to confirm saving settings a popup will be shown at the bottom of your page when you make changes."
-                },
-                {
-                    "label": "Keeps Reloading",
-                    "response": "If you come across the reloading issue, you will need to log out of the dashboard and log back in. This will fix the issue you are having."
-                }
-            ]
+            "overview": "**__Dashboard help__**\nhttps://docs.arcane.bot/core/dashboard",
+            "buttons": []
         },
         {
             "dropdown_label": "Leveling",
             "emote": {
                 "name": "📈"
             },
-            "overview": "**__Leveling help__**",
-            "buttons": [
-                {
-                    "label": "Role rewards",
-                    "response": "**__Role rewards__**",
-                    "buttons": [
-                        {
-                            "label": "Setup process",
-                            "response": "Role rewards are setup on the dashboard (<https://arcane.bot/dashboard>) on the leveling page.\n\nPlease make sure the role rewards you setup are below the bot's role so it can assign them!\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929490292841795634/unknown.png"
-                        },
-                        {
-                            "label": ["Aren't assigning", "Error on dashboard"],
-                            "response": "Make sure the bot's role is above the roles it needs to assign & has the `Manage roles` permission. If there is an error on the dashboard and you've fixed this then you can safely ignore the error.\n\n**__Example__**:\nhttps://cdn.discordapp.com/attachments/464849128615051275/929488779226538055/unknown.png"
-                        },
-                        {
-                            "label": "Stack Rewards",
-                            "response": "Stack Rewards will not remove the last earned Role reward when earning a new one. Disabling this will remove the last earned role when earning a new one.\n\nNote: Roles only update when a user levels up.\nhttps://cdn.discordapp.com/attachments/846823514710474766/929494671619670087/unknown.png"
-                        }
-                    ]
-                },
-                {
-                    "label": "XP Options",
-                    "response": "XP Options are a premium feature. Minimum and maximum are limited to 50 and 100 respectively for now.\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929491924790960168/unknown.png",
-                    "buttons": [
-                        {
-                            "label": "Cooldown",
-                            "response": "Cooldown is the time where arcane does not give out XP to the user to avoid XP being given out on every message the user sends. The Limit is 3599 Seconds (about 1 Hour)."
-                        },
-                        {
-                            "label": "Formula Multiplier",
-                            "response": "Formula Multiplier changes how much XP is required for each level. 1 is the default, meaning setting it to 2 would double the XP required for each level. The limit is 999."
-                        },
-                        {
-                            "label": "Modify Level",
-                            "response": "**__Modify Level__**",
-                            "buttons": [
-                                {
-                                    "label": "Reset Level",
-                                    "response": "You can reset a specific users level or an entire server if you have the Administrator permission. Visit your servers leaderboard by running `/leaderboard` and click on a specific user, or press the reset all button on the leaderboard to reset the levels.\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929702001439277106/unknown.png"
-                                },
-                                {
-                                    "label": "Set Level",
-                                    "response": "To set a users level, use the command `/xp set level` and supply the arguments.\n\nSet level is limited to only level 100 to avoid abuse."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "XP Boosters",
-                    "response": "XP Boosters allow you to give a specific percentage more xp for users with specific roles. Configuration can be found on the dashboard.\n\nNote: Only one is provided for free.\nhttps://cdn.discordapp.com/attachments/846823514710474766/929493142254813285/unknown.png",
-                    "buttons": [
-                        {
-                            "label": "Effort Booster",
-                            "response": "Effort booster rewards users who have put more effort and time into their message with slightly more XP.\n\n- `Word Count` determines how many Words are required in the message for the booster to apply.\n- `Attachment Count` determines how many files, videos, images etc are required for the booster to apply.\nhttps://cdn.discordapp.com/attachments/846823514710474766/929498426759082044/unknown.png"
-                        },
-                        {
-                            "label": "Vote Booster",
-                            "response": "Voting for arcane on <https://arcane.bot/vote> will give you a 10% XP Boost in all servers that have this enabled. Premium is required to disable this setting.\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929499098330042432/unknown.png"
-                        },
-                        {
-                            "label": "Stack Boosters",
-                            "response": "Stack boosters is disabled by default, but can be enabled on the XP Boosters settings. This means having multiple XP Booster roles will apply the boost from both roles!\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929689885630136330/unknown.png"
-                        }
-                    ]
-                },
-                {
-                    "label": "Voice Leveling",
-                    "response": "**Arcane's voice leveling is locked to the PREMIUM BOT only for the time being**\n\n**__To gain XP__**:\n-There must be at least 2 **unmuted** and **undeafened** users in the voice channel\n\n**__How much you earn__**:\n- Less than half of what you normally get by sending messages\n- The cooldown is multiple times longer than the message cooldown\n- The longer you are in the voice chat the less xp you will earn\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929493463949529178/unknown.png",
-                    "buttons": [
-                        {
-                            "label": "Modify XP Values",
-                            "response": "You can modify how much xp is given for voice XP on the dashboard."
-                        }
-                    ]
-                },
-                {
-                    "label": "Redirect Level Up Messages",
-                    "response": "To redirect Level Up messages, you will need to select the channel under the Level Up message configurator. You can find it under the Leveling module.\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/965915920050556948/unknown.png"
-                }
-            ]
+            "overview": "**__Leveling help__**\nhttps://docs.arcane.bot/plugins/leveling/",
+            "buttons": []
         },
         {
             "dropdown_label": "Counters",
             "emote": {
                 "name": "🔢"
             },
-            "overview": "**__Counters help__**",
-            "buttons": [
-                {
-                    "label": "Counter setup",
-                    "response": "Counter's are setup on our [dashboard](<https://arcane.bot/dashboard>) -> your server -> Counters"
-                },
-                {
-                    "label": "Incorrect stats",
-                    "response": "Counters are only updated every 15 to 30 minutes. At times Arcane (doesn't impact the premium bot) may display incorrect statistics on the normal bot while it fetches information in the background. This is done to save resources on our servers. Once the bot has gathered all the information needed the counters will update to the correct statistics. If you want consistently accurate statistics upgrade to premium."
-                },
-                {
-                    "label": "Counter updates",
-                    "response": "Counters update every 15 to 30 minutes. Make sure that Arcane has the **Manage channels** permission or it wont be able to update the channels\n\nUpdates include:\n- Counts going up\n- Counts going down\n- Counter names being changed on the dashboard"
-                },
-                {
-                    "label": "Deleting a counter",
-                    "response": "You can delete a counter on the dashboard or by deleting the channel in your Discord server. Please note that if you delete the counter on the dashboard you will need to delete the channel yourself."
-                },
-                {
-                    "label": "Counter Variables",
-                    "response": "Depending on the counter type you may have access to some variables to use in the counter name.\n\n**Counters:**\n- `{count}`: the count of the entity when the counter is updated\n\nGoal counters:\n- `{count}`: the count of the entity when the counter is updated\n- `{goal}`: the current goal. This can go up or down automatically"
-                }
-            ]
+            "overview": "**__Counters help__**\nhttps://docs.arcane.bot/plugins/counters/",
+            "buttons": []
         },
         {
             "dropdown_label": "Reaction roles",
@@ -163,16 +46,12 @@
             ]
         },
         {
-            "dropdown_label": "Welcomer & custom commands",
+            "dropdown_label": "Custom commands",
             "emote": {
                 "name": "👋"
             },
-            "overview": "**__Welcomer and custom commands help__**",
+            "overview": "**__Custom commands help__**",
             "buttons": [
-                {
-                    "label": "Welcomer Variables",
-                    "response": "Welcomer Variables\n\n`{guild.name}`: The server name\n`{guild.membercount}`: The total members in the server\n\n`{user.username}`: The user's username\n`{user.tag}`: The user's username and discriminator\n`{user.mention}`: Mention the user"
-                },
                 {
                     "label": "Custom Command Variables",
                     "response": "A full list of variables for custom commands can be found on the dashboard when creating a command"
@@ -192,73 +71,24 @@
             "emote": {
                 "name": "🔔"
             },
-            "overview": "**__Youtube Notifications help__**",
-            "buttons": [
-                {
-                    "label": "Youtube Channel ID",
-                    "response": "(Only on desktop)\n\n`1.` Go to a youtube video of your channel\n`2.` Click your channel name underneath the video\n`3.` Copy the url\n`4.` Copy and paste the bold section into the dashboard from your url. (<https://www.youtube.com/channel/> **LASTPORTIONOFURL**)\n\nhttps://cdn.discordapp.com/attachments/846823514710474766/929692576552984617/unknown.png"
-                },
-                {
-                    "label": "Aren't posting",
-                    "response": "We are aware that videos are posted super slow or are never posted. We're working to fix this. Sorry!"
-                },
-                {
-                    "label": "Variables",
-                    "response": "Youtube Variables\n\n`{video.title}`: Title of the video\n`{video.url}`: URL of the video\n`{video.author}`: Author of the channel and video"
-                }
-            ]
+            "overview": "**__Youtube Notifications help__**\nhttps://docs.arcane.bot/plugins/youtube",
+            "buttons": []
         },
         {
             "dropdown_label": "Premium help",
             "emote": {
                 "name": "💰"
             },
-            "overview": "**__Premium help__**",
-            "buttons": [
-                {
-                    "label": "Rank card image",
-                    "response": "**__Rank Card Help__**",
-                    "buttons": [
-                        {
-                            "label": "How to setup",
-                            "response": "**1.** Find an image and crop it to **800px** by **200px**. If you don't crop it then Arcane will stretch it to fit.\n**2.** Upload the image to <https://imgur.com/upload> (DO NOT UPLOAD TO DISCORD) then right click \"copy image address\"\n**3.** `/card image set linkgoeshere`\n**4.** If you want to see the full image use `/card transparency set 0%`\n\n**⚠️ Notes:**\n- Images are moderated and NSFW or any other images we don't deem okay will lead to a permanent ban with no appeal. No warnings will be given."
-                        },
-                        {
-                            "label": "Appeal a ban",
-                            "response": "You cannot appeal a ban from background images. NSFW images risk the bot being banned so we wont be allowing nsfw images ever."
-                        }
-                    ]
-                },
-                {
-                    "label": "Server Boosting",
-                    "response": "Currently server boosting the support server will **NOT** supply you with Premium. This may change in the future, but not at this current time."
-                }
-            ]
+            "overview": "**__Premium help__**\nPlease ask in <#819720583431323718>",
+            "buttons": []
         },
         {
             "dropdown_label": "Other issue",
             "emote": {
                 "name": "❓"
             },
-            "overview": "**__Other issue__**",
-            "buttons": [
-                {
-                    "label": "Bot doesn't respond",
-                    "response": "Make sure the bot can\n`-` View the channel\n`-` Send messages\n`-` Attach files\n`-` Embed links\n\nThat's all it needs and it'll respond unless it's offline or rebooting."
-                },
-                {
-                    "label": "Why do I need to use slash commands",
-                    "response": "Slash commands are a required change being forced by Discord. Please read more here: <https://medium.com/arcanebot/slash-commands-d33947c3808e>"
-                },
-                {
-                    "label": "Other question",
-                    "response": "You can ask your question in <#1103493546629152908>"
-                },
-                {
-                    "label": "Report user",
-                    "response": "You can report users by dming a moderator or trial moderator!"
-                }
-            ]
+            "overview": "**__Other issue__**\nhttps://docs.arcane.bot",
+            "buttons": []
         }
     ]
 }
